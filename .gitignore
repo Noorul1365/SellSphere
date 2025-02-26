@@ -1,0 +1,43 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore node_modules directory (for Node.js projects)
+node_modules/
+
+# Ignore environment variables and secrets
+.env
+.env.local
+
+# Ignore build output
+dist/
+build/
+
+# Ignore compiled code
+*.class
+*.pyc
+*.o
+*.out
+*.obj
+
+# Ignore dependency directories for various languages
+vendor/
+target/
+
+# Ignore package files created by OS or IDE
+*.lock
+*.swp
+.idea/
+.vscode/
+
+# Ignore coverage files
+coverage/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.old
